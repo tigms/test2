@@ -129,14 +129,12 @@ $\boldsymbol{U} = \left(A, Q \right)^T$;
 $\boldsymbol{E} = \left(Q, \frac{Q^2}{A}+\frac{g}{2}\frac{A^2}{B}\right)^T$; 
 $\boldsymbol{S}=\left(0, gA(I_b-I_f)\right)^T$
 
-$\boldsymbol{U}\_{i}$
+$\boldsymbol{U}\_{i}^{t+\Delta t}=\boldsymbol{U}\_i^{t}-\frac{\Delta t}{\Delta x} \left( \boldsymbol{E}^{\ast}\_{i+1/2}-\boldsymbol{E}^{\ast}\_{i-1/2} \right) +\boldsymbol{S}\_i \Delta t$
 
-$\boldsymbol{U}_{i}^{t+\Delta t}=\boldsymbol{U}_i^{t}-\frac{\Delta t}{\Delta x} \left( \boldsymbol{E}^{\ast}_{i+1/2}-\boldsymbol{E}^{\ast}_{i-1/2} \right) +\boldsymbol{S}__i \Delta t$
-
-$\boldsymbol{E}^{\ast}_{i+1/2} = \frac{1}{2}\left[\boldsymbol{E}^t_{i+1}+\boldsymbol{E}^t_{i}-\left\{\tilde{\alpha}^1\Psi(\tilde{\lambda^1})\tilde{\boldsymbol{e}}^1+\tilde{\alpha}^2\Psi(\tilde{\lambda^2})\tilde{\boldsymbol{e}}^2\right\}\right]$
+$\boldsymbol{E}^{\ast}\_{i+1/2} = \frac{1}{2}\left[\boldsymbol{E}^t\_{i+1}+\boldsymbol{E}^t\_{i}-\left\{\tilde{\alpha}^1\Psi(\tilde{\lambda^1})\tilde{\boldsymbol{e}}^1+\tilde{\alpha}^2\Psi(\tilde{\lambda^2})\tilde{\boldsymbol{e}}^2\right\}\right]$
 
 
-$\left(\begin{matrix}\tilde{\lambda}^1 \\ \tilde{\lambda}^2 \end{matrix}\right) = \left(\begin{matrix}\tilde{u}+\tilde{c} \\ \tilde{u}-\tilde{c} \end{matrix}\right)$，
+$\left(\begin{matrix}\tilde{\lambda}^1 \\\ \tilde{\lambda}^2 \end{matrix}\right) = \left(\begin{matrix}\tilde{u}+\tilde{c} \\ \tilde{u}-\tilde{c} \end{matrix}\right)$，
 $\left(\begin{matrix}\tilde{\alpha}^1 \\ \tilde{\alpha}^2 \end{matrix}\right) = -\frac{1}{2\tilde{c}}\left(\begin{matrix}\tilde{\lambda}^2(A^t_{i+1}-A^t_{i})-(Q^t_{i+1}-Q^t_{i}) \\ -\tilde{\lambda}^1(A^t_{i+1}-A^t_{i})+(Q^t_{i+1}-Q^t_{i}) \end{matrix}\right)$，
 $\boldsymbol{e}^1=\left(\begin{matrix}1 \\ \tilde{\lambda}^1 \end{matrix}\right)$，
 $\boldsymbol{e}^2 = \left(\begin{matrix}1 \\ \tilde{\lambda}^2 \end{matrix}\right)$である．
