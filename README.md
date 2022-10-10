@@ -83,7 +83,7 @@ $\Delta t = \frac{2\Delta x}{2C+U_u-U_d+C_u+C_d}$
 
 $C= -\frac{1}{8}\left(U_u-U_d\right)+\frac{1}{2}\sqrt{\left \\{\frac{3}{4}(U_u-U_d)+(C_u+C_d)\right \\}^2+\Delta x(K_u-K_d)}$
 
-$U = \frac{R^{4/3}}{gn^2 \Delta t}\left[ -1+\sqrt{1+\frac{2gn^2}{R^{4/3}}\Delta t\left \{ U_d+2(C-C_d)+(\frac{gI_b}{2}+K_d)\Delta t\right \}}\right]$
+$U = \frac{R^{4/3}}{gn^2 \Delta t}\left[ -1+\sqrt{1+\frac{2gn^2}{R^{4/3}}\Delta t\left \\{ U_d+2(C-C_d)+(\frac{gI_b}{2}+K_d)\Delta t\right \\}}\right]$
 
 
 ```python
