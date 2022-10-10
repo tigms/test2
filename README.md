@@ -129,8 +129,9 @@ $\boldsymbol{U} = \left(A, Q \right)^T$;
 $\boldsymbol{E} = \left(Q, \frac{Q^2}{A}+\frac{g}{2}\frac{A^2}{B}\right)^T$; 
 $\boldsymbol{S}=\left(0, gA(I_b-I_f)\right)^T$
 
+$$\boldsymbol{U}\_{i}$
 
-$\boldsymbol{U}__{i}^{t+\Delta t}=\boldsymbol{U}__i^{t}-\frac{\Delta t}{\Delta x} \left( \boldsymbol{E}^{\ast}__{i+1/2}-\boldsymbol{E}^{\ast}_{i-1/2} \right) +\boldsymbol{S}__i \Delta t$
+$\boldsymbol{U}_{i}^{t+\Delta t}=\boldsymbol{U}_i^{t}-\frac{\Delta t}{\Delta x} \left( \boldsymbol{E}^{\ast}_{i+1/2}-\boldsymbol{E}^{\ast}_{i-1/2} \right) +\boldsymbol{S}__i \Delta t$
 
 $\boldsymbol{E}^{\ast}_{i+1/2} = \frac{1}{2}\left[\boldsymbol{E}^t_{i+1}+\boldsymbol{E}^t_{i}-\left\{\tilde{\alpha}^1\Psi(\tilde{\lambda^1})\tilde{\boldsymbol{e}}^1+\tilde{\alpha}^2\Psi(\tilde{\lambda^2})\tilde{\boldsymbol{e}}^2\right\}\right]$
 
