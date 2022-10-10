@@ -138,19 +138,19 @@ class FlowParam:
 
 - 基礎方程式
 
-$\frac{\partial A}{\partial t}+\frac{\partial Q}{\partial t} = 0$・・・(35)
+$\frac{\partial A}{\partial t}+\frac{\partial Q}{\partial t} = 0$
 
-$Q = \frac{1}{n} A R^{2/3}I_b^{1/2}$・・・(37)
+$Q = \frac{1}{n} A R^{2/3}I_b^{1/2}$
 
 - 離散化式
 
-$A_i^{t+\Delta t} = A_i^{t}-\frac{\Delta t}{\Delta x}\left(Q_i^{t}-Q_{i-1}^t\right) $・・・式(39)
+$A_i^{t+\Delta t} = A_i^{t}-\frac{\Delta t}{\Delta x}\left(Q_i^{t}-Q_{i-1}^t\right) $
 
 - 境界条件式
 
-$I_b-\frac{n^2}{{R_0^{t+\Delta t}}^{4/3}}\left(\frac{Q_0^{t+\Delta t}}{A_0^{t+\Delta t}}\right)^2 =0 $・・・式(40)
+$I_b-\frac{n^2}{{R_0^{t+\Delta t}}^{4/3}}\left(\frac{Q_0^{t+\Delta t}}{A_0^{t+\Delta t}}\right)^2 =0 $
 
-式(40)より，$A_0^{t+\Delta t}$を算出．
+上式より， $A_0^{t+\Delta t}$ を算出．
 
 
 ```python
