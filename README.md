@@ -125,7 +125,7 @@ class PltGraph():
 
 $\frac{\partial \boldsymbol{U}}{\partial t}+\frac{\partial \boldsymbol{E}}{\partial x}=\boldsymbol{S}$
 
-$\boldsymbol{U} = \left(\begin{matrix}A \\\ Q\end{matrix}\right)$;
+$\boldsymbol{U} = \left(\begin{matrix} A \\\ Q \end{matrix} \right)$;
  
 $\boldsymbol{E} = \left(\begin{matrix}Q \\\ \frac{Q^2}{A}+\frac{g}{2}\frac{A^2}{B}\end{matrix}\right)$; 
 
