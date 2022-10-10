@@ -129,7 +129,7 @@ $\boldsymbol{U} = \left(A, Q \right)^T$;
 $\boldsymbol{E} = \left(Q, \frac{Q^2}{A}+\frac{g}{2}\frac{A^2}{B}\right)^T$; 
 $\boldsymbol{S}=\left(0, gA(I_b-I_f)\right)^T$
 
-$$\boldsymbol{U}\_{i}$
+$\boldsymbol{U}\_{i}$
 
 $\boldsymbol{U}_{i}^{t+\Delta t}=\boldsymbol{U}_i^{t}-\frac{\Delta t}{\Delta x} \left( \boldsymbol{E}^{\ast}_{i+1/2}-\boldsymbol{E}^{\ast}_{i-1/2} \right) +\boldsymbol{S}__i \Delta t$
 
