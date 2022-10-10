@@ -31,9 +31,7 @@ Q_MAX = 2100.
 ```
 
 ## Muskingum-Cunge法のクラス
-$
-Q_{i+1}^{t+\Delta t} = C_1 Q_i^{t} + C_2 Q_i^{t+\Delta t} + C_3 Q_{i+1}^{t}
-$
+$Q_{i+1}^{t+\Delta t} = C_1 Q_i^{t} + C_2 Q_i^{t+\Delta t} + C_3 Q_{i+1}^{t}$
 
 $C_1 = \frac{KX+0.5\Delta t}{K(1-X)+0.5\Delta t}$，
 $C_2 = \frac{0.5\Delta t-KX}{K(1-X)+0.5\Delta t}$，
@@ -41,7 +39,7 @@ $C_3 = \frac{K(1-X)-0.5\Delta t}{K(1-X)+0.5\Delta t}$
 
 $C_1+C_2+C_3 = 1$
 
-$K=\frac{\Delta x}{\lambda}$，$X = 0.5-\frac{\mu}{\lambda \Delta x} (0 \le X \le 0.5)$
+$K=\frac{\Delta x}{\lambda}$， $X = 0.5-\frac{\mu}{\lambda \Delta x} (0 \le X \le 0.5)$
 
 
 
