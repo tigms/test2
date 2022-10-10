@@ -131,7 +131,7 @@ $\boldsymbol{S}=\left(0, gA(I_b-I_f)\right)^T$
 
 $\boldsymbol{U}\_{i}^{t+\Delta t}=\boldsymbol{U}\_i^{t}-\frac{\Delta t}{\Delta x} \left( \boldsymbol{E}^{\ast}\_{i+1/2}-\boldsymbol{E}^{\ast}\_{i-1/2} \right) +\boldsymbol{S}\_i \Delta t$
 
-$\boldsymbol{E}^{\ast}\_{i+1/2} = \frac{1}{2}\left[\boldsymbol{E}^t\_{i+1}+\boldsymbol{E}^t\_{i}-\left\{\tilde{\alpha}^1\Psi(\tilde{\lambda^1})\tilde{\boldsymbol{e}}^1+\tilde{\alpha}^2\Psi(\tilde{\lambda^2})\tilde{\boldsymbol{e}}^2\right\}\right]$
+$\boldsymbol{E}^{\ast}\_{i+1/2} = \frac{1}{2}\left[\boldsymbol{E}^t\_{i+1}+\boldsymbol{E}^t\_{i}-\left\\{\tilde{\alpha}^1\Psi(\tilde{\lambda^1})\tilde{\boldsymbol{e}}^1+\tilde{\alpha}^2\Psi(\tilde{\lambda^2})\tilde{\boldsymbol{e}}^2\right\\}\right]$
 
 
 $\left(\begin{matrix}\tilde{\lambda}^1 \\\ \tilde{\lambda}^2 \end{matrix}\right) = \left(\begin{matrix}\tilde{u}+\tilde{c} \\ \tilde{u}-\tilde{c} \end{matrix}\right)$，
